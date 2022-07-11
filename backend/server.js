@@ -9,6 +9,7 @@ connectDB();
 const app = express();
 //bodyparser
 app.use(express.json());
+
 app.use(express.urlencoded({ extends: false }));
 
 //ALL ROUTES
